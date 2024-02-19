@@ -16,7 +16,7 @@ namespace PithFront\PithPackPlex;
 use Pith\Workflow\PithRoute;
 
 /**
- * Class AnimateCssResourceRoute
+ * Class PlexResourceRoute
  */
 class PlexResourceRoute extends PithRoute
 {
