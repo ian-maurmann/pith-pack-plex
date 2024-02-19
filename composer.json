@@ -1,0 +1,27 @@
+{
+    "name": "pith-front/pith-pack-plex",
+    "description": "Pack Plex fonts for Pith",
+    "authors": [
+        {
+            "name": "Ian Maurmann",
+            "role": "Developer"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^8.2",
+        "ext-gd": "*",
+        "ext-json": "*",
+        "ext-pdo": "*",
+        "ext-readline": "*",
+        "pith/base": "^0.2.0",
+        "pith/workflow-elements": "^0.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PithFront\\PithPackPlex\\": [
+                "src/plex-resource-pack/"
+            ]
+        }
+    }
+}
