@@ -16,7 +16,7 @@ For info on Pith, see the Pith website at https://pith-framework.org/
 Install to an existing Pith Framework project
 
 Use Composer to install pack to the `vendor` folder.
-```bash
+```
 php composer.phar require pith-front/pith-pack-plex
 ```
 
@@ -44,7 +44,7 @@ public array $routes = [
 - Designed by Mike Abbink, IBM BX&D, in collaboration with Bold Monday, an independent Dutch type foundry. 
 - https://fonts.google.com/specimen/IBM+Plex+Sans/about
 
-### pith-pack-plex
+### pith-pack-plex (The PHP files that wrap the font here)
 - pith-pack-plex
 - The MIT License (MIT)
 - Copyright (c) Ian Maurmann
